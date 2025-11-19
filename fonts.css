@@ -10,7 +10,7 @@
     font-family: "IBM Plex Serif";
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/ibm-plex-serif-v20-cyrillic_latin-regular.woff2")
+    src: url("/fonts/ibm-plex-serif-v20-cyrillic_latin-regular.woff2")
         format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* ibm-plex-sans-600 - latin */
@@ -19,7 +19,7 @@
     font-family: "IBM Plex Serif";
     font-style: normal;
     font-weight: 600;
-    src: url("../fonts/ibm-plex-serif-v20-cyrillic_latin-500.woff2")
+    src: url("/fonts/ibm-plex-serif-v20-cyrillic_latin-500.woff2")
         format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* libre-baskerville-regular - latin */
@@ -28,8 +28,7 @@
     font-family: "Libre Baskerville";
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/libre-baskerville-v17-latin-regular.woff2")
-        format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url("/fonts/libre-baskerville-v17-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* libre-baskerville-700 - latin */
 @font-face {
@@ -37,5 +36,5 @@
     font-family: "Libre Baskerville";
     font-style: normal;
     font-weight: 700;
-    src: url("../fonts/libre-baskerville-v17-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url("/fonts/libre-baskerville-v17-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
