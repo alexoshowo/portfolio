@@ -1,0 +1,121 @@
+@import url("fonts.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    background-color: #e4e4e4;
+    font-size: 16px;
+}
+main {
+    margin: auto;
+    max-width: calc(100% - 128px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+article {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 80ch;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    max-width: 80ch;
+}
+.project-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+h1 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 6rem;
+}
+h2 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 4rem;
+}
+.dashseparator {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 6rem;
+}
+p {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    hyphens: auto;
+}
+figure,
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    height: 128px;
+    margin: 0 4rem;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    gap: 64px;
+    text-decoration: none;
+    list-style-type: none;
+}
+ul,
+li,
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #333;
+    font-family: var(--font-display);
+    font-size: 3rem;
+}
+.logo {
+    height: 64px;
+    max-width: 225px;
+}
+.metadata {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.metadata h3 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 2.5em;
+}
+.metadata p {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 1.5rem;
+    transform: translateY(-2.5px);
+}
+
+time {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 2.5rem;
+}
